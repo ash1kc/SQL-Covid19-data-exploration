@@ -15,7 +15,7 @@ where location='India'
 order by 1,2
 
 
---looking at total cases vs  populaton
+--looking at total cases vs  population
 --what percentage of population got infected
 
 select location,date,total_cases,population,(total_cases/population)*100
